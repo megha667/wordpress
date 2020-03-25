@@ -1,4 +1,4 @@
-FROM wordpress:php7.1-apache
+FROM wordpress:latest
 COPY . /var/www/html
 
 FROM mysql:5.7

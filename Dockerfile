@@ -1,7 +1,2 @@
-FROM mysql:5.7
-COPY ./db_data /var/lib/mysql
-Expose 3306
-
-
-FROM wordpress:latest  
+FROM wordpress:php7.1-apache
 COPY . /var/www/html
